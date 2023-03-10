@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#game-area{
+     width: 60%;
+     height: 65vh;
+     margin: auto;
+     margin-top: 150px;
+     background-image: url("assets/Game-Background/Out-Door.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+}
+#soccer{
+    font-size: 1em;
+    text-align: center;
+    position: relative;
+    padding: 10px 50px;
+    display: inline-block;
+    justify-content: center;
+    color: white;
+    position: absolute;
+     left: 50%;
+     transform: translateX(-50%);
+    border-radius: 20px;
+    background-color: rgb(98, 160, 246);
+}
+#soccer *{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#left-door{
+    position: absolute;
+    height: 50%;
+    width: 15%;
+    bottom: 0;
+}
+
+#ball{
+    width: 4%;
+    height: 8%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 100px;
+}
+
+#right-door{
+    position: absolute;
+    right: 0;
+    height: 50%;
+    width: 15%;
+    bottom: 0;
+}
+#player-1{
+    bottom: 0;
+    width: 20%;
+    left: 90px;
+    position: absolute;
+    margin-bottom: -20px;
+}
+
+#player-2{
+    width: 20%;
+    position: absolute;
+    right: 90px;
+    bottom: 0;
+    transform: rotateY(180deg);
+    margin-bottom: -20px;
+}
