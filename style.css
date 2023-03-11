@@ -58,17 +58,15 @@
 }
 #player-1{
     bottom: 0;
-    width: 20%;
+    width: 10%;
     left: 90px;
     position: absolute;
-    margin-bottom: -20px;
 }
 
 #player-2{
-    width: 20%;
+    width: 10%;
     position: absolute;
     right: 90px;
     bottom: 0;
     transform: rotateY(180deg);
-    margin-bottom: -20px;
 }
